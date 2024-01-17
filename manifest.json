@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "WA Spellcheck",
+  "description": "Enable Spellcheck on Plato WA Editor",
+  "version": "1.0.0",
+  "conent_scripts": [
+    {
+      "matches": ["https://www.worldanvil.com/world/item/*/edit"],
+      "js": ["enable.js"]
+    }
+  ]
+}
