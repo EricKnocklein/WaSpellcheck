@@ -3,9 +3,10 @@
   "name": "WA Spellcheck",
   "description": "Enable Spellcheck on Plato WA Editor",
   "version": "1.0.0",
+  "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["https://www.worldanvil.com/world/item/*/edit"],
+      "matches": ["https://www.worldanvil.com/world/article/*"],
       "js": ["enable.js"]
     }
   ]
